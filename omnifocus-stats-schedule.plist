@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>OmniFocus Stats</string>
+
+
+    <key>ProgramArguments</key>
+	<array>
+	<string>/usr/bin/open</string>
+	<string>-W</string>
+	<string>/Users/John/Developer/Automation/omnifocus-stats/OmniFocusStats.app</string>
+	</array>
+
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Day</key>
+        <integer>*</integer>
+        <key>Hour</key>
+        <integer>4</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+        <key>Month</key>
+        <integer>*</integer>
+        <key>Weekday</key>
+        <integer>*</integer>
+    </dict>
+
+
+    <key>UserName</key>
+    <string>John</string>
+    <key>GroupName</key>
+    <string>staff</string>
+    <key>InitGroups</key>
+    <true/>
+</dict>
+</plist>
